@@ -53,7 +53,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/j7xelte/proprietary/vendor/lib/egl/libGLES_mali.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libGLES_mali.so \
     vendor/samsung/j7xelte/proprietary/vendor/lib/hw/android.hardware.nfc@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.nfc@1.0-impl.so \
     vendor/samsung/j7xelte/proprietary/vendor/lib/hw/audio.primary.exynos5.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.primary.exynos5.so \
-    vendor/samsung/j7xelte/proprietary/vendor/lib/hw/camera.exynos5.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/camera.exynos5.so \
+    vendor/samsung/j7xelte/proprietary/vendor/lib/hw/camera.exynos5_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/camera.exynos5_vendor.so \
     vendor/samsung/j7xelte/proprietary/vendor/lib/hw/gps.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/gps.default.so \
     vendor/samsung/j7xelte/proprietary/vendor/lib/hw/gralloc.exynos5.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/gralloc.exynos5.so \
     vendor/samsung/j7xelte/proprietary/vendor/lib/hw/hwcomposer.exynos5.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/hwcomposer.exynos5.so \
@@ -130,6 +130,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/j7xelte/proprietary/vendor/lib/soundfx/libreverbwrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libreverbwrapper.so \
     vendor/samsung/j7xelte/proprietary/vendor/lib/soundfx/libvisualizer.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libvisualizer.so \
     vendor/samsung/j7xelte/proprietary/vendor/lib/vendor.samsung.hardware.nfc@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.hardware.nfc@1.0.so \
+    vendor/samsung/j7xelte/proprietary/vendor/lib/vendor.samsung.hardware.radio.channel@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.hardware.radio.channel@1.0_vendor.so \
     vendor/samsung/j7xelte/proprietary/vendor/lib/vendor.samsung.hardware.radio.secoemhook@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.hardware.radio.secoemhook@1.0_vendor.so \
     vendor/samsung/j7xelte/proprietary/vendor/lib/vendor.samsung.hardware.radio@1.1_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.hardware.radio@1.1_vendor.so \
     vendor/samsung/j7xelte/proprietary/vendor/lib/vendor.samsung.hardware.wifi.supplicant@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.hardware.wifi.supplicant@1.0.so \
