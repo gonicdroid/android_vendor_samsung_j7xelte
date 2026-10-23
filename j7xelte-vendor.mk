@@ -34,8 +34,4 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/j7xelte/proprietary/vendor/etc/wifi/nvram.txt_3s:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/nvram.txt_3s \
     vendor/samsung/j7xelte/proprietary/vendor/etc/wifi/p2p_supplicant_overlay.conf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/p2p_supplicant_overlay.conf \
     vendor/samsung/j7xelte/proprietary/vendor/etc/wifi/wpa_supplicant_overlay.conf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/wpa_supplicant_overlay.conf \
-    vendor/samsung/j7xelte/proprietary/vendor/firmware/sec_s3nrn80_firmware.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/sec_s3nrn80_firmware.bin \
-    vendor/samsung/j7xelte/proprietary/vendor/lib/vendor.samsung.hardware.nfc@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.hardware.nfc@1.0.so \
-    vendor/samsung/j7xelte/proprietary/vendor/lib/hw/vendor.samsung.hardware.nfc@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.samsung.hardware.nfc@1.0-impl.so \
-    vendor/samsung/j7xelte/proprietary/vendor/bin/hw/vendor.samsung.hardware.nfc@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.samsung.hardware.nfc@1.0-service \
-    vendor/samsung/j7xelte/proprietary/vendor/etc/init/vendor.samsung.hardware.nfc@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.hardware.nfc@1.0-service.rc
+    vendor/samsung/j7xelte/proprietary/vendor/firmware/sec_s3nrn80_firmware.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/sec_s3nrn80_firmware.bin
